@@ -12,5 +12,39 @@
     width: 600px ;
     margin: 0 auto;
     background-color: #eee;
-    padding: 1rem 5rem;
+    padding: 1rem 5rem 5rem 5rem;
+    border: 3px solid palevioletred;
+}
+
+.quiz-box h1 {
+    background-color: palevioletred;
+    font-size: 4rem;
+    text-align:center;
+    color: #eee;
+    padding: 1rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+}
+
+.quiz-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-header #progress {
+    color: rgb(2, 2, 231);
+    font-size: 1.6rem;
+    font-weight: 70;
+}
+
+.quiz-header #count-down {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: rgb(247, 88, 30);
+    padding: 5px;
+    margin: 1px;
+    color: #eee;
+    border-radius: 3px;
 }
