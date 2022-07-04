@@ -93,8 +93,26 @@
 }
 
 .quiz-repeat {
+    text-align: center;
+    margin: 0 auto;
+    /* font-size: 1.6rem;
+    font-weight: 600;
+    color: #eee;
+    text-decoration: none; */
+}
+
+.quiz-repeat a {
     font-size: 1.6rem;
     font-weight: 600;
     color: #eee;
     text-decoration: none;
+    background-color: rgb(247, 88, 30);
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.quiz-repeat a:hover{
+    background-color: rgb(247, 88, 30);
+    
 }
