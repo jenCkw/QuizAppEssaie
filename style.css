@@ -74,3 +74,27 @@
     outline: none;
 
 }
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(34, 34, 247);
+    color: #eee;
+}
+
+.btn:active {
+    color: black;
+}
+
+#score {
+    color: black;
+    text-align: center;
+    font: 2rem;
+    margin-bottom: 4rem;
+}
+
+.quiz-repeat {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #eee;
+    text-decoration: none;
+}
