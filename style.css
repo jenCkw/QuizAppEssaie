@@ -13,11 +13,11 @@
     margin: 0 auto;
     background-color: #eee;
     padding: 1rem 5rem 5rem 5rem;
-    border: 3px solid palevioletred;
+    border: 3px solid rgb(34, 34, 247);
 }
 
 .quiz-box h1 {
-    background-color: palevioletred;
+    background-color: rgb(34, 34, 247);
     font-size: 4rem;
     text-align:center;
     color: #eee;
@@ -34,7 +34,7 @@
 }
 
 .quiz-header #progress {
-    color: rgb(2, 2, 231);
+    color: rgb(34, 34, 247);
     font-size: 1.6rem;
     font-weight: 70;
 }
@@ -47,4 +47,30 @@
     margin: 1px;
     color: #eee;
     border-radius: 3px;
+}
+
+.quiz-box #question {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(247, 88, 30);
+    border: 1px solid gray;
+    border-width: 1px 0;
+}
+
+.buttons {
+    margin: 1.5rm 0 4rem 0;
+}
+
+.btn {
+    text-align: left;
+    background-color: #eee;
+    width: 100%;
+    font-size: 1.8rem;
+    color: black;
+    border: 1px solid rgb(34, 34, 247);
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+
 }
