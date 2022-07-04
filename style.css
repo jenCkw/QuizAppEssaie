@@ -1,0 +1,16 @@
+.container {
+    max-width: 9OOpx;
+    margin: 0 auto;
+    padding:  0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-box {
+    width: 600px ;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 1rem 5rem;
+}
